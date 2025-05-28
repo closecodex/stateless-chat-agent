@@ -10,15 +10,15 @@ If the user asks “What time is it?”, it calls a tool that returns the curren
 1. **Clone the repository and enter the directory:**
 
     ```bash
-    git clone git@github.com:closecodex/Stateless-chat-graph-.git
-    cd Stateless-chat-graph-
+    git clone git@github.com:closecodex/stateless-chat-agent.git
+    cd stateless-chat-agent
     ```
 
 2. **Set up the virtual environment and install dependencies:**
 
     ```bash
-    python -m venv .venv
-    source .venv/bin/activate
+    python -m venv venv
+    source venv/Scripts/activate
     pip install -r requirements.txt
     ```
 
