@@ -32,22 +32,20 @@ If the user asks “What time is it?”, it calls a tool that returns the curren
 
     **Note:**  
     In some LangGraph versions, the CLI command `langgraph dev` may not be installed due to packaging issues.  
-    If so, simply run the project with:
+    If so, simply run:
 
     ```bash
     python app.py
     ```
 
-    In the console, type:
+    Example interaction:
 
     ```
     You: What time is it?
     Bot: Current UTC time is: 2025-05-27T19:37:35.834012Z
     ```
 
-    The agent will call the tool and display the current time.
-
-    If you have the CLI:
+    Or, if the CLI is available:
 
     ```bash
     langgraph dev
